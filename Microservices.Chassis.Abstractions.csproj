@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>PeterKneale.Microservices.Chassis.Abstractions</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>PeterKneale</Authors>
+    <Company>PeterKneale</Company>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>
